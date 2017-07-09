@@ -1,0 +1,38 @@
+
+
+html, body, .root {
+    margin: 0;
+    height: 100%;
+}
+
+
+.board{
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-flow: row wrap;
+}
+
+.row {
+    display: flex;
+    flex: 1 ;
+}
+.cube ,.empty{
+    flex: 1 ;
+    display: flex;
+    align-items: center;
+
+    /*flex: 0 0 20%;*/
+
+    /*border: solid;
+    border-color: black;*/
+}
+
+
+.cube{
+    background: tomato;
+}
+
+.empty{
+    background: lightseagreen;
+}
